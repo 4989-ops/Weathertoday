@@ -1,0 +1,16 @@
+{
+  "name": "maetan1dong-weather-dashboard",
+  "version": "1.0.0",
+  "description": "매탄1동 기상 상황판 (대시보드 + API 프록시)",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}
